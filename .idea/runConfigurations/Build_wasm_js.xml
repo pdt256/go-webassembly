@@ -1,0 +1,19 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Build wasm js" type="GoApplicationRunConfiguration" factoryName="Go Application">
+    <module name="go-webassembly" />
+    <working_directory value="$PROJECT_DIR$/" />
+    <go_parameters value="-i" />
+    <parameters value="-o web/main.wasm" />
+    <envs>
+      <env name="GOOS" value="js" />
+      <env name="GOARCH" value="wasm" />
+    </envs>
+    <kind value="FILE" />
+    <filePath value="$PROJECT_DIR$/cmd/wasm/main.go" />
+    <package value="go-webassembly" />
+    <directory value="$PROJECT_DIR$/" />
+    <output_directory value="$PROJECT_DIR$/web" />
+    <option name="run" value="false" />
+    <method v="2" />
+  </configuration>
+</component>

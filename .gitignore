@@ -1,4 +1,5 @@
-/.idea/
+.idea/*
+!.idea/runConfigurations/
 .DS_Store
-/web/main.wasm
+/web/Build_wasm_js
 /web/wasm_exec.js
